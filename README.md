@@ -52,4 +52,4 @@
 
 
 [1]:https://github.com/BuglyDevTeam/Bugly-FastlanePlugin/releases/download/v1.0/fastlaneplugin.zip
-[2]:https://bugly.qq.com/v2/
+[2]:https://bugly.qq.com/docs/user-guide/api-beta/?v=20160810204834
