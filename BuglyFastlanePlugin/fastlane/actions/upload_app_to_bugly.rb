@@ -15,8 +15,7 @@ module Fastlane
         require 'json'
         # fastlane will take care of reading in the parameter and fetching the environment variable:
         UI.message "file path: #{params[:file_path]}"
-        result_file = File.new('upload_result.json', 'w+')
-        result_file.close
+        
         json_file = 'upload_app_to_bugly_result.json'
 
         begin

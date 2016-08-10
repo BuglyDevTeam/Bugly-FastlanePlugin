@@ -1,1 +1,1 @@
-{"rtcode":0,"msg":"Success","data":{"app_id":"900037804","pid":"1","title":"update title 111","description":"fastlane description","secret":"2","password":"123456","url":"http://beta.bugly.qq.com/n1zo","download_limit":"10000","status":"1","create_time":"2016-08-10 19:17:30.000","update_time":"2016-08-10 19:20:49.000","exp_id":"0caa7a8f-8a7a-4f70-b422-6da2025fd7d7","version":"1.0.1","creator":"900037804_1","download_num":"0","feedback_num":"0"}}
+{"rtcode":40400,"msg":"Success","data":{"code":"0","msg":"this version is not exist"}}

@@ -14,8 +14,6 @@ module Fastlane
       def self.run(params)
         require 'json'
         UI.message "file path: #{params[:file_path]}"
-        result_file = File.new('update_app_to_bugly_result.json', 'w+')
-        result_file.close
         json_file = 'update_app_to_bugly_result.json'
 
         begin
