@@ -51,5 +51,4 @@
 
 
 
-[1]:http://softfile.3g.qq.com/myapp/buglysdk/fastlane_plugin.zip
-[2]:../apis/beta.md
+[1]:https://github.com/BuglyDevTeam/Bugly-FastlanePlugin/releases/download/v1.0/fastlaneplugin.zip
