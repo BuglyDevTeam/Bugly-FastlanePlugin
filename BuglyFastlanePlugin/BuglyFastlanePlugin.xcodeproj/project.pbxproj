@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63D12DB1D5B408E00128CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D12DA1D5B408E00128CEC /* main.m */; };
+		D63D12DE1D5B408E00128CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D12DD1D5B408E00128CEC /* AppDelegate.m */; };
+		D63D12E11D5B408E00128CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D12E01D5B408E00128CEC /* ViewController.m */; };
+		D63D12E41D5B408E00128CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63D12E21D5B408E00128CEC /* Main.storyboard */; };
+		D63D12E61D5B408E00128CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63D12E51D5B408E00128CEC /* Assets.xcassets */; };
+		D63D12E91D5B408E00128CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63D12E71D5B408E00128CEC /* LaunchScreen.storyboard */; };
+		D63D12F41D5B408E00128CEC /* BuglyFastlanePluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D12F31D5B408E00128CEC /* BuglyFastlanePluginTests.m */; };
+		D63D12FF1D5B408E00128CEC /* BuglyFastlanePluginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D12FE1D5B408E00128CEC /* BuglyFastlanePluginUITests.m */; };
+		D63D130E1D5B410200128CEC /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D63D130D1D5B410200128CEC /* logo.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63D12F01D5B408E00128CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63D12CE1D5B408E00128CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63D12D51D5B408E00128CEC;
+			remoteInfo = BuglyFastlanePlugin;
+		};
+		D63D12FB1D5B408E00128CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63D12CE1D5B408E00128CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63D12D51D5B408E00128CEC;
+			remoteInfo = BuglyFastlanePlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D63D12D61D5B408E00128CEC /* BuglyFastlanePlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuglyFastlanePlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63D12DA1D5B408E00128CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D63D12DC1D5B408E00128CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D63D12DD1D5B408E00128CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D63D12DF1D5B408E00128CEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D63D12E01D5B408E00128CEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D63D12E31D5B408E00128CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63D12E51D5B408E00128CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63D12E81D5B408E00128CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63D12EA1D5B408E00128CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63D12EF1D5B408E00128CEC /* BuglyFastlanePluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuglyFastlanePluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63D12F31D5B408E00128CEC /* BuglyFastlanePluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyFastlanePluginTests.m; sourceTree = "<group>"; };
+		D63D12F51D5B408E00128CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63D12FA1D5B408E00128CEC /* BuglyFastlanePluginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuglyFastlanePluginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63D12FE1D5B408E00128CEC /* BuglyFastlanePluginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyFastlanePluginUITests.m; sourceTree = "<group>"; };
+		D63D13001D5B408E00128CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63D130D1D5B410200128CEC /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63D12D31D5B408E00128CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63D12EC1D5B408E00128CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63D12F71D5B408E00128CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63D12CD1D5B408E00128CEC = {
+			isa = PBXGroup;
+			children = (
+				D63D12D81D5B408E00128CEC /* BuglyFastlanePlugin */,
+				D63D12F21D5B408E00128CEC /* BuglyFastlanePluginTests */,
+				D63D12FD1D5B408E00128CEC /* BuglyFastlanePluginUITests */,
+				D63D12D71D5B408E00128CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63D12D71D5B408E00128CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63D12D61D5B408E00128CEC /* BuglyFastlanePlugin.app */,
+				D63D12EF1D5B408E00128CEC /* BuglyFastlanePluginTests.xctest */,
+				D63D12FA1D5B408E00128CEC /* BuglyFastlanePluginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63D12D81D5B408E00128CEC /* BuglyFastlanePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				D63D130C1D5B40F700128CEC /* Image */,
+				D63D12DC1D5B408E00128CEC /* AppDelegate.h */,
+				D63D12DD1D5B408E00128CEC /* AppDelegate.m */,
+				D63D12DF1D5B408E00128CEC /* ViewController.h */,
+				D63D12E01D5B408E00128CEC /* ViewController.m */,
+				D63D12E21D5B408E00128CEC /* Main.storyboard */,
+				D63D12E51D5B408E00128CEC /* Assets.xcassets */,
+				D63D12E71D5B408E00128CEC /* LaunchScreen.storyboard */,
+				D63D12EA1D5B408E00128CEC /* Info.plist */,
+				D63D12D91D5B408E00128CEC /* Supporting Files */,
+			);
+			path = BuglyFastlanePlugin;
+			sourceTree = "<group>";
+		};
+		D63D12D91D5B408E00128CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63D12DA1D5B408E00128CEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D63D12F21D5B408E00128CEC /* BuglyFastlanePluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D63D12F31D5B408E00128CEC /* BuglyFastlanePluginTests.m */,
+				D63D12F51D5B408E00128CEC /* Info.plist */,
+			);
+			path = BuglyFastlanePluginTests;
+			sourceTree = "<group>";
+		};
+		D63D12FD1D5B408E00128CEC /* BuglyFastlanePluginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D63D12FE1D5B408E00128CEC /* BuglyFastlanePluginUITests.m */,
+				D63D13001D5B408E00128CEC /* Info.plist */,
+			);
+			path = BuglyFastlanePluginUITests;
+			sourceTree = "<group>";
+		};
+		D63D130C1D5B40F700128CEC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D63D130D1D5B410200128CEC /* logo.jpeg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63D12D51D5B408E00128CEC /* BuglyFastlanePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63D13031D5B408E00128CEC /* Build configuration list for PBXNativeTarget "BuglyFastlanePlugin" */;
+			buildPhases = (
+				D63D12D21D5B408E00128CEC /* Sources */,
+				D63D12D31D5B408E00128CEC /* Frameworks */,
+				D63D12D41D5B408E00128CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuglyFastlanePlugin;
+			productName = BuglyFastlanePlugin;
+			productReference = D63D12D61D5B408E00128CEC /* BuglyFastlanePlugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63D12EE1D5B408E00128CEC /* BuglyFastlanePluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63D13061D5B408E00128CEC /* Build configuration list for PBXNativeTarget "BuglyFastlanePluginTests" */;
+			buildPhases = (
+				D63D12EB1D5B408E00128CEC /* Sources */,
+				D63D12EC1D5B408E00128CEC /* Frameworks */,
+				D63D12ED1D5B408E00128CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63D12F11D5B408E00128CEC /* PBXTargetDependency */,
+			);
+			name = BuglyFastlanePluginTests;
+			productName = BuglyFastlanePluginTests;
+			productReference = D63D12EF1D5B408E00128CEC /* BuglyFastlanePluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D63D12F91D5B408E00128CEC /* BuglyFastlanePluginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63D13091D5B408E00128CEC /* Build configuration list for PBXNativeTarget "BuglyFastlanePluginUITests" */;
+			buildPhases = (
+				D63D12F61D5B408E00128CEC /* Sources */,
+				D63D12F71D5B408E00128CEC /* Frameworks */,
+				D63D12F81D5B408E00128CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63D12FC1D5B408E00128CEC /* PBXTargetDependency */,
+			);
+			name = BuglyFastlanePluginUITests;
+			productName = BuglyFastlanePluginUITests;
+			productReference = D63D12FA1D5B408E00128CEC /* BuglyFastlanePluginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63D12CE1D5B408E00128CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李雄";
+				TargetAttributes = {
+					D63D12D51D5B408E00128CEC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D63D12EE1D5B408E00128CEC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D63D12D51D5B408E00128CEC;
+					};
+					D63D12F91D5B408E00128CEC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D63D12D51D5B408E00128CEC;
+					};
+				};
+			};
+			buildConfigurationList = D63D12D11D5B408E00128CEC /* Build configuration list for PBXProject "BuglyFastlanePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63D12CD1D5B408E00128CEC;
+			productRefGroup = D63D12D71D5B408E00128CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63D12D51D5B408E00128CEC /* BuglyFastlanePlugin */,
+				D63D12EE1D5B408E00128CEC /* BuglyFastlanePluginTests */,
+				D63D12F91D5B408E00128CEC /* BuglyFastlanePluginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63D12D41D5B408E00128CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63D12E91D5B408E00128CEC /* LaunchScreen.storyboard in Resources */,
+				D63D12E61D5B408E00128CEC /* Assets.xcassets in Resources */,
+				D63D130E1D5B410200128CEC /* logo.jpeg in Resources */,
+				D63D12E41D5B408E00128CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63D12ED1D5B408E00128CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63D12F81D5B408E00128CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63D12D21D5B408E00128CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63D12E11D5B408E00128CEC /* ViewController.m in Sources */,
+				D63D12DE1D5B408E00128CEC /* AppDelegate.m in Sources */,
+				D63D12DB1D5B408E00128CEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63D12EB1D5B408E00128CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63D12F41D5B408E00128CEC /* BuglyFastlanePluginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63D12F61D5B408E00128CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63D12FF1D5B408E00128CEC /* BuglyFastlanePluginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63D12F11D5B408E00128CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63D12D51D5B408E00128CEC /* BuglyFastlanePlugin */;
+			targetProxy = D63D12F01D5B408E00128CEC /* PBXContainerItemProxy */;
+		};
+		D63D12FC1D5B408E00128CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63D12D51D5B408E00128CEC /* BuglyFastlanePlugin */;
+			targetProxy = D63D12FB1D5B408E00128CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63D12E21D5B408E00128CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63D12E31D5B408E00128CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63D12E71D5B408E00128CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63D12E81D5B408E00128CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63D13011D5B408E00128CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D63D13021D5B408E00128CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63D13041D5B408E00128CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuglyFastlanePlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bugly.BuglyFastlanePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D63D13051D5B408E00128CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuglyFastlanePlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bugly.BuglyFastlanePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D63D13071D5B408E00128CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuglyFastlanePluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bugly.BuglyFastlanePluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuglyFastlanePlugin.app/BuglyFastlanePlugin";
+			};
+			name = Debug;
+		};
+		D63D13081D5B408E00128CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuglyFastlanePluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bugly.BuglyFastlanePluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuglyFastlanePlugin.app/BuglyFastlanePlugin";
+			};
+			name = Release;
+		};
+		D63D130A1D5B408E00128CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuglyFastlanePluginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bugly.BuglyFastlanePluginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuglyFastlanePlugin;
+			};
+			name = Debug;
+		};
+		D63D130B1D5B408E00128CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuglyFastlanePluginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bugly.BuglyFastlanePluginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuglyFastlanePlugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63D12D11D5B408E00128CEC /* Build configuration list for PBXProject "BuglyFastlanePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63D13011D5B408E00128CEC /* Debug */,
+				D63D13021D5B408E00128CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63D13031D5B408E00128CEC /* Build configuration list for PBXNativeTarget "BuglyFastlanePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63D13041D5B408E00128CEC /* Debug */,
+				D63D13051D5B408E00128CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D63D13061D5B408E00128CEC /* Build configuration list for PBXNativeTarget "BuglyFastlanePluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63D13071D5B408E00128CEC /* Debug */,
+				D63D13081D5B408E00128CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D63D13091D5B408E00128CEC /* Build configuration list for PBXNativeTarget "BuglyFastlanePluginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63D130A1D5B408E00128CEC /* Debug */,
+				D63D130B1D5B408E00128CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63D12CE1D5B408E00128CEC /* Project object */;
+}

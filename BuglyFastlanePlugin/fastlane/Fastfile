@@ -1,0 +1,99 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "1.98.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    
+    
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    # match(type: "appstore") # more information: https://codesigning.guide
+    gym # Build your app - more options available
+    pilot
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here (run `fastlane actions`)
+  end
+
+  desc "Deploy a new version to the App Store"
+  lane :appstore do
+    # match(type: "appstore")
+    # snapshot
+    gym # Build your app - more options available
+    deliver(force: true)
+    # frameit
+  end
+
+  # You can define as many lanes as you want
+
+  lane :upload do
+    puts "upload file"
+    upload_app_to_bugly(
+      file_path:"/Users/pudgeli/Documents/Git/bugly-android/BuglyBetaDemo/build/outputs/apk/BuglyBetaDemo-debug.apk",
+      app_key:"mAhX7FqohWEDTxF4",
+      app_id:"900037804",
+      pid:"1",
+      title:"fastlane title 111",
+      desc:"fastlane description"
+    )
+  end
+
+  lane :update do
+    puts "update file"
+    update_app_to_bugly(
+      file_path:"/Users/pudgeli/Documents/Git/bugly-android/BuglyBetaDemo/build/outputs/apk/BuglyBetaDemo-debug.apk",
+      app_key:"mAhX7FqohWEDTxF4",
+      exp_id:"0caa7a8f-8a7a-4f70-b422-6da2025fd7d7",
+      title:"update title 111",
+      desc:"fastlane description",
+      secret:"2", 
+      password:"123456",
+      download_limit:1
+    )
+  end
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+
+  error do |lane, exception|
+    # slack(
+    #   message: exception.message,
+    #   success: false
+    # )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+
+# fastlane reports which actions are used
+# No personal data is recorded. Learn more at https://github.com/fastlane/enhancer
